@@ -9,7 +9,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: 'Lato', Times New Roman;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -20,7 +20,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', Times New Roman;
+    font-family: 'Lato', sans-serif;
     font-weight: 150;
     color: #333;
 }
