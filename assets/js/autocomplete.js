@@ -1,7 +1,8 @@
 $(function() {
-  var members = [];
+  var members = ["aditya"];
   //members.push(f_name + l_name);
-  $( "#tags" ).autocomplete({
-    source: availableTags
+  $( "#input_name" ).autocomplete({
+    source: members
   });
 });
+
