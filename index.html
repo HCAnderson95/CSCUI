@@ -17,13 +17,25 @@
     <link href="./assets/css/main.css" rel="stylesheet">
 
     <!-- Fonts from Google Fonts -->
-	<link href="./csclub_files/css" rel="stylesheet" type="text/css">
+	<link href="./assets/css" rel="stylesheet" type="text/css">
+	
+	<link href="./assets/js/bootstrap.min.js" rel="stylesheet" type="text/css">
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+	
+	<meta charset="utf-8">
+  <!-- JQuery -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+   <!-- Autocomplete -->
+  <script src="./assets/js/autocomplete.js"></script>
+	
   </head>
 
   <body>
@@ -59,8 +71,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1>Enter your name</h1>
+					<h1>Autocomplete Example</h1>
+					<div class="ui-widget">
+					  <label for="tags">Tags: </label>
+					  <input id="tags">
+					</div>
 					
+					<h1>Enter your name</h1>
 					  <div class="form-group">
 					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
 					  </div>
